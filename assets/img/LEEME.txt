@@ -1,0 +1,1 @@
+Colocá aquí las fotografías propias y autorizadas de la productora. Luego actualizá las rutas de imagen en los archivos HTML o CSS.
