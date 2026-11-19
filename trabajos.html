@@ -1,21 +1,220 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Carrasco74 Productora Audiovisual. Producción, realización y comunicación audiovisual desde Viedma, Patagonia."><title>Trabajos | Carrasco74</title><link rel="stylesheet" href="css/styles.css"></head><body>
-<header class="site-header"><div class="container nav-wrap">
-<a class="brand" href="index.html"><span class="brand-mark">C74</span><span>CARRASCO74<small>PRODUCTORA AUDIOVISUAL</small></span></a>
-<button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">MENÚ</button>
-<nav class="nav-links" aria-label="Navegación principal">
-<a href="index.html">Inicio</a><a href="equipo.html">Equipo</a><a href="servicios.html">Servicios</a><a href="trabajos.html">Trabajos</a><a href="contacto.html">Contacto</a>
-</nav></div></header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio audiovisual de Carrasco74: Cero DB ¡Viva el Arte!, El Profe y Moreira. Producciones de televisión, cine y ficción desde Viedma.">
+  <meta name="theme-color" content="#07080a">
+  <title>Trabajos | Carrasco74 Productora Audiovisual</title>
+  <link rel="icon" type="image/png" href="assets/img/logo-carrasco74-redondo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Carrasco74 – Inicio">
+        <img src="assets/img/logo-carrasco74.png" alt="Logotipo oficial de Carrasco74 Productora Audiovisual" width="620" height="342">
+        <span class="brand__rule" aria-hidden="true"></span>
+        <span class="brand__text"><strong>CARRASCO74</strong><small>PRODUCTORA AUDIOVISUAL</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-principal">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-principal" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="trabajos.html">Trabajos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
 
-<main><section class="page-hero"><div class="container"><div class="eyebrow">Portfolio</div><h1>Historias realizadas</h1><p>Una selección representativa de formatos y líneas de trabajo de la productora.</p></div></section>
-<section class="section"><div class="container"><div class="project-grid">
-<article class="project"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80" alt="Cantante en escenario"><div class="project-caption"><span>Música · Televisión</span><h3>Cero DB – Viva el Arte</h3></div></article>
-<article class="project"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Paisaje patagónico"><div class="project-caption"><span>Documental · Cultura</span><h3>Historias de la Patagonia</h3></div></article>
-<article class="project"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=80" alt="Sala de cine"><div class="project-caption"><span>Ficción · Desarrollo</span><h3>MOREIRA</h3></div></article>
-<article class="project"><img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=900&q=80" alt="Concierto en vivo"><div class="project-caption"><span>Eventos · Música</span><h3>Producciones en vivo</h3></div></article>
-<article class="project"><img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=900&q=80" alt="Cámara de cine"><div class="project-caption"><span>Realización · Audiovisual</span><h3>Contenido institucional</h3></div></article>
-<article class="project"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Edición audiovisual en computadora"><div class="project-caption"><span>Digital · Comunicación</span><h3>Contenido para plataformas</h3></div></article>
-</div><p style="color:var(--muted);font-size:12px;margin-top:20px">Las imágenes son ilustrativas. Reemplazalas por fotogramas y fotografías propias de cada producción antes de publicar.</p></div></section></main>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Portfolio</div>
+        <h1 class="display">Historias<br>realizadas.</h1>
+        <p>Una selección de las producciones documentadas de Carrasco74: televisión cultural, cortometraje de ficción y una serie de época en preproducción.</p>
+      </div>
+    </section>
 
-<footer class="site-footer"><div class="container footer-inner"><span>© <span data-year></span> Carrasco74 Productora Audiovisual · Viedma, Río Negro</span><div class="socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></div></div></footer><script src="js/main.js"></script>
-</body></html>
+    <!-- ============ CERO DB ============ -->
+    <section class="project-block" id="cerodb" aria-labelledby="titulo-cerodb">
+      <div class="feature">
+        <div class="feature__media" style="background-image:url('assets/img/proyectos/cero-db/cerodb-01.jpg')" role="img" aria-label="Registro del programa Cero DB ¡Viva el Arte!"></div>
+        <div class="container feature__inner">
+          <span class="badge">Televisión · Música y cultura</span>
+          <h2 id="titulo-cerodb">Cero DB <span>¡Viva el Arte!</span></h2>
+          <p class="feature__sub">Ciclo semanal de una hora de duración, creado, producido y conducido por Genaro Ariel Carrasco. Desde 2015 y con más de 11 años al aire, constituye un espacio televisivo de referencia en la región para artistas y festividades populares.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="project-copy" data-reveal>
+          <div>
+            <h3>La música y la cultura, en pantalla</h3>
+            <p>El programa muestra y levanta las banderas de músicos locales, intérpretes, autores, fiestas populares y aniversarios de las localidades vecinas, recorriendo distintos géneros musicales.</p>
+            <p>Su trayectoria combina la televisión por cable y aire con la presencia en plataformas digitales, con emisiones en vivo y especiales realizados desde distintos puntos de Viedma.</p>
+            <div class="project-links">
+              <a class="link-pill" href="https://www.youtube.com/@carrasco74" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L16 12l-6.4 3.6z"/></svg>YouTube Carrasco74</a>
+              <a class="link-pill" href="https://www.instagram.com/cerodbvivaelarte/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1A6.7 6.7 0 1 0 18.7 12 6.7 6.7 0 0 0 12 5.3zm0 11A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.9-11.2a1.6 1.6 0 1 1-1.6-1.6 1.6 1.6 0 0 1 1.6 1.6z"/></svg>Instagram Cero DB</a>
+              <a class="link-pill" href="https://www.youtube.com/@carrasco74Contenidos" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L16 12l-6.4 3.6z"/></svg>Carrasco74 Contenidos</a>
+            </div>
+          </div>
+          <dl class="ficha">
+            <div><dt>Creación y conducción</dt><dd>Genaro Ariel Carrasco</dd></div>
+            <div><dt>Formato</dt><dd>Ciclo semanal · una hora</dd></div>
+            <div><dt>Señales (2015–2019)</dt><dd>Supercanal, ENTV, CCV y señales del interior rionegrino</dd></div>
+            <div><dt>2020</dt><dd>Ciclo “Quedate en Casa – Artistas locales en la red” (50 programas)</dd></div>
+            <div><dt>2021–2025</dt><dd>ENTV 31.1 TDA, TV por cable, YouTube y Facebook Live</dd></div>
+            <div><dt>2026</dt><dd>Gira Provincial y Ensamble Sinfónico de Cero DB</dd></div>
+          </dl>
+        </div>
+
+        <div class="gallery gallery--strip" aria-label="Galería fotográfica de Cero DB">
+          <button type="button" data-lightbox data-caption="Cero DB ¡Viva el Arte! – registro del programa (1)"><img src="assets/img/proyectos/cero-db/cerodb-01.jpg" alt="Registro del programa Cero DB ¡Viva el Arte!" width="1400" height="631" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="Cero DB ¡Viva el Arte! – registro del programa (2)"><img src="assets/img/proyectos/cero-db/cerodb-02.jpg" alt="Imagen del ciclo Cero DB ¡Viva el Arte!" width="1400" height="629" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="Cero DB ¡Viva el Arte! – registro del programa (3)"><img src="assets/img/proyectos/cero-db/cerodb-03.jpg" alt="Registro fotográfico de Cero DB" width="1329" height="1000" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="Cero DB ¡Viva el Arte! – registro del programa (4)"><img src="assets/img/proyectos/cero-db/cerodb-04.jpg" alt="Registro fotográfico de Cero DB" width="1329" height="1000" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="Cero DB ¡Viva el Arte! – registro del programa (5)"><img src="assets/img/proyectos/cero-db/cerodb-05.jpg" alt="Registro fotográfico de Cero DB" width="1329" height="1000" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="Cero DB ¡Viva el Arte! – registro del programa (6)"><img src="assets/img/proyectos/cero-db/cerodb-06.jpg" alt="Registro fotográfico de Cero DB" width="1400" height="788" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EL PROFE ============ -->
+    <section class="project-block section--graphite" id="el-profe" aria-labelledby="titulo-profe">
+      <div class="feature">
+        <div class="feature__media" style="background-image:url('assets/img/proyectos/el-profe/fotograma-03.jpg')" role="img" aria-label="Fotograma del cortometraje El Profe"></div>
+        <div class="container feature__inner">
+          <span class="badge">Cortometraje · 2024 · Ópera prima</span>
+          <h2 id="titulo-profe">El Profe</h2>
+          <p class="feature__sub">Cortometraje de ficción de 8 minutos dirigido y realizado por Ariel Carrasco, filmado íntegramente en la ciudad de Viedma.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="project-copy" data-reveal>
+          <div class="poster-wrap">
+            <img src="assets/img/proyectos/el-profe/afiche-el-profe.png" alt="Afiche promocional del cortometraje El Profe" width="592" height="854" loading="lazy">
+          </div>
+          <div>
+            <h3>Un recorrido por la ciudad</h3>
+            <p>La obra narra el enigmático trayecto de una niña de doce años junto a su vecino y profesor, a través de un recorrido por la ciudad que conduce a un desenlace inesperado.</p>
+            <p>El rodaje utilizó como escenarios un establecimiento educativo primario, un domicilio particular cercano a la Costanera, la céntrica Plaza del Fundador y el Cementerio Local de Viedma.</p>
+            <dl class="ficha">
+              <div><dt>Dirección y realización</dt><dd>Ariel Carrasco</dd></div>
+              <div><dt>Duración</dt><dd>8 minutos</dd></div>
+              <div><dt>Elenco principal</dt><dd>David González (El Profe) · Valentina Calderón (Laurita)</dd></div>
+              <div><dt>Estreno</dt><dd>Presentado a sala llena en el Cine Rex de Viedma</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="gallery gallery--strip" aria-label="Fotogramas y registro de El Profe">
+          <button type="button" data-lightbox data-caption="El Profe – fotograma 1"><img src="assets/img/proyectos/el-profe/fotograma-01.jpg" alt="Fotograma del cortometraje El Profe" width="1090" height="613" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="El Profe – fotograma 2"><img src="assets/img/proyectos/el-profe/fotograma-02.jpg" alt="Fotograma del cortometraje El Profe" width="1091" height="608" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="El Profe – fotograma 3"><img src="assets/img/proyectos/el-profe/fotograma-03.jpg" alt="Fotograma del cortometraje El Profe" width="1090" height="613" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="El Profe – fotograma 4"><img src="assets/img/proyectos/el-profe/fotograma-04.jpg" alt="Fotograma del cortometraje El Profe" width="1090" height="613" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="El Profe – fotograma 5"><img src="assets/img/proyectos/el-profe/fotograma-05.jpg" alt="Fotograma del cortometraje El Profe" width="934" height="526" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="El Profe – registro de rodaje 1"><img src="assets/img/proyectos/el-profe/registro-01.jpg" alt="Registro de rodaje del cortometraje El Profe" width="1200" height="680" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="El Profe – registro de rodaje 2"><img src="assets/img/proyectos/el-profe/registro-02.jpg" alt="Registro de rodaje del cortometraje El Profe" width="675" height="900" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MOREIRA ============ -->
+    <section class="project-block section--wine" id="moreira" aria-labelledby="titulo-moreira">
+      <div class="feature">
+        <div class="feature__media" style="background-image:url('assets/img/proyectos/moreira/moreira-02.jpg')" role="img" aria-label="Material visual de la serie Moreira"></div>
+        <div class="container feature__inner">
+          <span class="badge">Serie de ficción · En preproducción</span>
+          <h2 id="titulo-moreira">MOREIRA</h2>
+          <p class="feature__sub">Serie dramática de época ambientada entre 1860 y 1874, coproducida por Carrasco74 Productora Audiovisual y Listos Para Rodar Productora Audiovisual (LPR), orientada a plataformas internacionales de streaming.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="project-copy" data-reveal>
+          <div>
+            <h3>La historia del mítico gaucho</h3>
+            <p>La trama explora la historia del mítico gaucho Juan Moreira relatada por el anciano Julián Andrade al joven Facundo. La serie aborda los dilemas de la justicia, la opresión social, la vida en la clandestinidad y la resistencia de las comunidades originarias bajo el mando del lonko Coliqueo.</p>
+            <p>El proyecto combina reconstrucción histórica de época, registro cinematográfico en Ultra HD y coreografía de esgrima criolla a cargo del maestro Jorge Emilio Prina.</p>
+            <div class="note">Material visual de la serie MOREIRA. Se presenta como proyecto en preproducción; la documentación disponible no establece otros estados de producción.</div>
+          </div>
+          <dl class="ficha">
+            <div><dt>Coproducción</dt><dd>Carrasco74 · Listos Para Rodar (LPR)</dd></div>
+            <div><dt>Formato</dt><dd>8 episodios de 30 a 40 minutos</dd></div>
+            <div><dt>Género</dt><dd>Gauchesco, Acción, Drama Histórico y Romance</dd></div>
+            <div><dt>Período</dt><dd>1860 – 1874</dd></div>
+            <div><dt>Recursos técnicos</dt><dd>Ultra HD, grúas, travelling y tomas aéreas con dron</dd></div>
+            <div><dt>Música y participaciones</dt><dd>Adrián Maggi y Awka Liwen; convocatoria de Soledad Pastorutti, Raly Barrionuevo, Jeremías Chauque, Catherine Vergnes y Saúl Huenchul</dd></div>
+          </dl>
+        </div>
+
+        <div class="gallery gallery--mosaic" aria-label="Galería de material visual de Moreira">
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (1)"><img src="assets/img/proyectos/moreira/moreira-01.jpg" alt="Material visual de la serie Moreira" width="1200" height="800" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (2)"><img src="assets/img/proyectos/moreira/moreira-02.jpg" alt="Material visual de la serie Moreira" width="1200" height="800" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (3)"><img src="assets/img/proyectos/moreira/moreira-03.jpg" alt="Material visual de la serie Moreira" width="1200" height="800" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (4)"><img src="assets/img/proyectos/moreira/moreira-04.jpg" alt="Material visual de la serie Moreira" width="800" height="1200" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (5)"><img src="assets/img/proyectos/moreira/moreira-05.jpg" alt="Material visual de la serie Moreira" width="800" height="1200" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (6)"><img src="assets/img/proyectos/moreira/moreira-06.jpg" alt="Material visual de la serie Moreira" width="800" height="1200" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (7)"><img src="assets/img/proyectos/moreira/moreira-07.jpg" alt="Material visual de la serie Moreira" width="800" height="1200" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (8)"><img src="assets/img/proyectos/moreira/moreira-08.jpg" alt="Material visual de la serie Moreira" width="800" height="1200" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (9)"><img src="assets/img/proyectos/moreira/moreira-09.jpg" alt="Material visual de la serie Moreira" width="960" height="1200" loading="lazy"></button>
+          <button type="button" data-lightbox data-caption="MOREIRA – material visual de la serie (10)"><img src="assets/img/proyectos/moreira/moreira-10.jpg" alt="Material visual de la serie Moreira" width="799" height="1200" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/img/logo-carrasco74.png" alt="Logotipo de Carrasco74" width="620" height="342" loading="lazy">
+          <p>Productora audiovisual y gestora cultural. Producción integral de contenidos audiovisuales, televisión, cine y eventos culturales.</p>
+          <div class="social-links" aria-label="Redes sociales de Carrasco74">
+            <a class="social-link" href="https://www.facebook.com/Audio.visual.74" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Carrasco74 (abre en nueva pestaña)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.9h2.78l-.45 2.91h-2.33V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg></a>
+            <a class="social-link" href="https://www.youtube.com/@carrasco74" target="_blank" rel="noopener noreferrer" aria-label="YouTube de Carrasco74 (abre en nueva pestaña)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L16 12l-6.4 3.6z"/></svg></a>
+            <a class="social-link" href="https://www.instagram.com/cerodbvivaelarte/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Cero DB (abre en nueva pestaña)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1A6.7 6.7 0 1 0 18.7 12 6.7 6.7 0 0 0 12 5.3zm0 11A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.9-11.2a1.6 1.6 0 1 1-1.6-1.6 1.6 1.6 0 0 1 1.6 1.6z"/></svg></a>
+            <a class="social-link" href="https://www.youtube.com/@carrasco74Contenidos" target="_blank" rel="noopener noreferrer" aria-label="YouTube Carrasco74 Contenidos (abre en nueva pestaña)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L16 12l-6.4 3.6z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="trabajos.html">Trabajos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="mailto:estudio.carrasco74@gmail.com">estudio.carrasco74@gmail.com</a></li>
+            <li><a href="tel:+5492920367572">2920-367572</a></li>
+            <li>Gasquet 647, Viedma, Río Negro</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> Carrasco74 Productora Audiovisual. Todos los derechos reservados.</span>
+        <span>Viedma · Patagonia Argentina</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galería de imágenes" hidden>
+    <button class="lightbox__close" type="button" aria-label="Cerrar galería">×</button>
+    <figure><img src="" alt="Imagen ampliada de la galería"><figcaption></figcaption></figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

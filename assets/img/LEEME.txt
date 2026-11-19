@@ -1,1 +1,9 @@
-Colocá aquí las fotografías propias y autorizadas de la productora. Luego actualizá las rutas de imagen en los archivos HTML o CSS.
+Imágenes optimizadas utilizadas por el sitio.
+
+- logo-carrasco74.png / logo-carrasco74-redondo.png: logotipos oficiales (originales en archivos/).
+- equipo/: retratos de los integrantes (originales en archivos/).
+- hero-cerodb.jpg y proyectos/cero-db/: fotografías del programa Cero DB ¡Viva el Arte!.
+- proyectos/el-profe/: afiche, fotogramas y registro de rodaje del cortometraje El Profe.
+- proyectos/moreira/: material visual de la serie Moreira (originales en archivos/moreira/).
+
+Los archivos originales se conservan en la carpeta archivos/ y en las ubicaciones referenciadas por sus accesos directos.

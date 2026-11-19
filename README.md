@@ -1,33 +1,47 @@
-# Carrasco74 Productora Audiovisual — Trabajo Práctico Integrador
+# Carrasco74 Productora Audiovisual
 
-Sitio web multipágina responsive desarrollado con HTML5 semántico, CSS3 (Flexbox y Grid) y JavaScript ES6.
+Sitio institucional multipágina responsive, desarrollado con HTML5 semántico, CSS3 (Flexbox y Grid) y JavaScript vanilla. Sin frameworks ni dependencias de ejecución.
 
 ## Estructura
-- `index.html`: Inicio
-- `equipo.html`: Equipo, misión, visión y valores
-- `servicios.html`: Servicios
-- `trabajos.html`: Portfolio / galería
-- `contacto.html`: Datos, mapa y formulario
-- `css/styles.css`: Estilos y responsive design
-- `js/main.js`: Menú móvil, navegación activa y formulario
-- `assets/img/`: Carpeta destinada a imágenes propias
 
-## Cómo ejecutar
-Abrir `index.html` en un navegador. Para una experiencia más cómoda, usar la extensión Live Server de Visual Studio Code.
+| Archivo / carpeta | Contenido |
+| --- | --- |
+| `index.html` | Inicio: presentación institucional, actividades, producciones destacadas y CTA. |
+| `equipo.html` | Equipo: Ariel Carrasco, Mauro Carrasco, Liliana Perino y Jairo Carrasco. |
+| `servicios.html` | Servicios documentados en el Dossier Carrasco74. |
+| `trabajos.html` | Portfolio: Cero DB ¡Viva el Arte!, El Profe y Moreira, con galerías. |
+| `contacto.html` | Datos de contacto, redes sociales, mapa y formulario. |
+| `css/styles.css` | Identidad visual, componentes y diseño responsive. |
+| `js/main.js` | Menú móvil, navegación activa, revelado de secciones, lightbox y formulario. |
+| `assets/img/` | Logotipos, retratos y fotografías de producciones optimizadas para web. |
+| `archivos/` | Documentación y recursos originales (no modificados). |
+| `backup_original/` | Copia de seguridad de los archivos HTML, CSS, JS y README originales. |
 
-## Antes de publicar
-1. En `js/main.js`, reemplazar `TU_EMAIL@EJEMPLO.COM` por el correo real que recibirá las consultas.
-2. Completar email y teléfono en `contacto.html`.
-3. Reemplazar fotografías ilustrativas por imágenes propias y autorizadas.
-4. Revisar nombres, cargos y proyectos para que coincidan con la información definitiva.
+## Contenido y veracidad
 
-## Publicar en GitHub Pages
-1. Crear un repositorio público llamado `tfi-carrasco74`.
-2. Subir todos los archivos y carpetas manteniendo esta estructura.
-3. En GitHub, entrar a **Settings → Pages**.
-4. En **Build and deployment**, elegir **Deploy from a branch**.
-5. Seleccionar la rama `main` y la carpeta `/ (root)`, guardar.
-6. Esperar la publicación y abrir la URL que muestra GitHub Pages.
+Todo el texto institucional se basa en `archivos/Dossier Carrasco74.md` y en la documentación específica de cada producción referenciada desde la carpeta `archivos` (CERO DB, EL PROFE y MOREIRA). No se han inventado fechas, premios ni antecedentes.
 
-## Nota sobre el formulario
-GitHub Pages aloja sitios estáticos. El formulario valida los campos y abre el programa de correo del visitante mediante `mailto:`; no almacena ni envía mensajes a un servidor.
+Las fotografías de las producciones se copiaron y optimizaron desde esos recursos originales dentro de `assets/img/`. Los originales de `archivos/` se conservan sin cambios.
+
+## Formulario de contacto
+
+El sitio es estático. El formulario valida los campos y abre `mailto:estudio.carrasco74@gmail.com` con el asunto y el mensaje ya completos. No envía datos a un servidor ni simula un envío exitoso: el mensaje se envía cuando la persona confirma en su aplicación de correo.
+
+## Ejecutar localmente
+
+Opción simple: abrir `index.html` directamente en Google Chrome.
+
+Opción recomendada (evita restricciones de rutas y permite probar como servidor):
+
+```bash
+cd carrasco74-tfi
+python -m http.server 8000
+```
+
+Luego visitar `http://localhost:8000/`.
+
+También funciona con la extensión **Live Server** de Visual Studio Code.
+
+## Publicación
+
+El sitio es compatible con alojamiento estático (GitHub Pages, Netlify, etc.). Mantener la estructura de carpetas y subir también `assets/img/`, `css/` y `js/`.
